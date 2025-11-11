@@ -1,0 +1,25 @@
+# =============================
+# Streamlit Server Settings
+# =============================
+[server]
+headless = true           # Run in headless mode (required for deployment)
+port = 8501               # Default Streamlit port
+enableCORS = false        # Disable CORS for easier embedding
+maxUploadSize = 200       # Max upload size in MB (adjust if your Excel files are large)
+runnerMode = "threaded"   # Optimize performance for interactive apps
+
+# =============================
+# Theme Customization
+# =============================
+[theme]
+primaryColor = "#1f77b4"           # Blue accents for charts/buttons
+backgroundColor = "#f9f9f9"        # Light background for clean look
+secondaryBackgroundColor = "#ffffff"
+textColor = "#111111"              # Dark text for readability
+font = "sans serif"
+
+# =============================
+# Browser/Session Settings
+# =============================
+[global]
+disableWatchdogWarning = true
